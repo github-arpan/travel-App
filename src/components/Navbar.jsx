@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Navbar() {
   return (
-    <div className="p-10">
+    <div className="p-10 fixed  w-full">
       <div className="flex justify-between px-6 py-6 rounded-xl bg-slate-100 ">
         <div className="font-bold text-xl">Trip</div>
         <div>

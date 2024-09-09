@@ -5,7 +5,7 @@ export default {
     extend: {
       backgroundImage: {
         "bg-img":
-          "url('https://cdn.pixabay.com/photo/2022/05/11/13/55/nature-7189418_1280.jpg')",
+          "url('https://cdn.pixabay.com/photo/2017/12/01/03/17/nature-2990060_1280.jpg')",
       },
     },
   },
