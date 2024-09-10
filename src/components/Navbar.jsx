@@ -7,11 +7,21 @@ export default function Navbar() {
         <div className="font-bold text-xl">Trip</div>
         <div>
           <ul className="flex space-x-5 font-semibold ">
-            <li>HOME</li>
-            <li>ABOUT</li>
-            <li>SERVICE</li>
-            <li>CONTACT</li>
-            <li className="bg-green-200 px-2">SIGN UP</li>
+            <li className="border-b-2 border-transparent hover:border-black cursor-pointer">
+              HOME
+            </li>
+            <li className="border-b-2 border-transparent hover:border-black cursor-pointer">
+              ABOUT
+            </li>
+            <li className="border-b-2 border-transparent hover:border-black cursor-pointer">
+              SERVICE
+            </li>
+            <li className="border-b-2 border-transparent hover:border-black cursor-pointer">
+              CONTACT
+            </li>
+            <li className="bg-green-200 px-2 hover:bg-green-400 cursor-pointer">
+              SIGN UP
+            </li>
           </ul>
         </div>
       </div>
